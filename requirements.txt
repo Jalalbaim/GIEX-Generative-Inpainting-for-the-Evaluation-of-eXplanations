@@ -1,0 +1,26 @@
+# Core deep learning
+torch
+torchvision
+
+# XAI attribution
+captum
+
+# Scientific / numerical
+numpy
+scipy
+scikit-image
+pandas
+
+# Image I/O
+Pillow
+
+# Config & serialisation
+PyYAML
+
+# Visualisation
+matplotlib
+seaborn
+
+# ── External packages (install separately — see docs/weights_and_data.md) ─────
+# guided_diffusion   — RePaint's diffusion model package
+# deepfillv2-pytorch — DeepFill v2 inpainting package

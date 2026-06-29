@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+
+title: "GIEX: Generative Inpainting for the Evaluation of eXplanations"
+# TODO: confirm exact paper title with supervisors
+
+authors:
+  - family-names: "Baim"
+    given-names: "Mohamed Jalal"
+    affiliation: "CEA"            # TODO: confirm full affiliation / lab name
+  - family-names: "Xu-Darme"
+    given-names: "Romain"
+    affiliation: "CEA"            # TODO: confirm affiliation
+  - family-names: "Grastien"
+    given-names: "Alban"
+    affiliation: "CEA"            # TODO: confirm affiliation
+
+version: "1.0.0"
+date-released: "2026-01-01"       # TODO: update to actual publication date
+
+repository-code: "https://github.com/TODO/GIEX"   # TODO: add repo URL after push
+
+preferred-citation:
+  type: conference-paper
+  title: "GIEX: Generative Inpainting for the Evaluation of eXplanations"
+  # TODO: confirm exact paper title
+  authors:
+    - family-names: "Baim"
+      given-names: "Mohamed Jalal"
+      affiliation: "CEA"
+    - family-names: "Xu-Darme"
+      given-names: "Romain"
+      affiliation: "CEA"
+    - family-names: "Grastien"
+      given-names: "Alban"
+      affiliation: "CEA"
+  collection-title: "Proceedings of the International Conference on Pattern Recognition (ICPR)"
+  year: 2026
+  # doi: "TODO"          # fill in once assigned
+  # url: "TODO"
+  # pages: "TODO"
+  # publisher: "TODO"
+
+# ── BibTeX equivalent ─────────────────────────────────────────────────────────
+# @inproceedings{baim2026giex,
+#   title     = {{GIEX}: Generative Inpainting for the Evaluation of {eXplanations}},
+#   author    = {Baim, Mohamed Jalal and Xu-Darme, Romain and Grastien, Alban},
+#   booktitle = {Proceedings of the International Conference on Pattern Recognition (ICPR)},
+#   year      = {2026},
+#   doi       = {TODO},
+# }

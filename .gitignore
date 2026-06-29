@@ -1,0 +1,40 @@
+# ── Model weights & checkpoints ───────────────────────────────────────────────
+*.pth
+*.pt
+# Keep JSON metadata (e.g. imagenet_class_index.json)
+!data/weights/*.json
+
+# ── Dataset images ────────────────────────────────────────────────────────────
+data/imagenette_sub15/
+data/10306/
+data/eagle_inet/
+data/imgs/
+
+# ── Experiment outputs ────────────────────────────────────────────────────────
+logs/
+results/
+fid_outputs/
+latest_outputs_deepfill/
+hallucination/
+AE_imagenet_.pth
+
+# ── Python artefacts ──────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS / editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
