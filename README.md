@@ -38,9 +38,7 @@ pip install -r requirements.txt
 External packages must be installed separately:
 
 ```bash
-# 1. RePaint / guided_diffusion
-git clone https://github.com/andreas128/RePaint
-cp -r RePaint/guided_diffusion/ .
+pip install -r requirements.txt
 ```
 
 See **[`docs/weights_and_data.md`](docs/weights_and_data.md)** for the complete list of
