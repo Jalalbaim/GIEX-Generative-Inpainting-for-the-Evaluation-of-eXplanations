@@ -56,8 +56,6 @@ Methods: `saliency`, `integrated gradients`, `grad-cam`, `grads`, `smoothgrad`, 
 
 ## Citation
 
-```bibtex
-TODO
-```
+Waiting for publication
 
 See also [`docs/CITATION.cff`](docs/CITATION.cff).
