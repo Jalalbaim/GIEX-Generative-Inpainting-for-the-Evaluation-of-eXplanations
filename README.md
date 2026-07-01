@@ -54,38 +54,6 @@ where `seed_index` ∈ {0, 1, 2} corresponds to three random seeds (set in the Y
 
 Methods: `saliency`, `integrated gradients`, `grad-cam`, `grads`, `smoothgrad`, `gbp`, `lrp`.
 
-### Step 1 — Run deletion curves (AURC / AUDC) with RePaint
-
-```bash
-# Single run
-python AURC.py --conf_path confs/conf_sal_0.yml
-
-# SLURM array (all 3 seeds for one method)
-sbatch bench_sal.sh   # runs AURC.py with confs/conf_sal_{0,1,2}.yml
-```
-
-### Step 2 — Run insertion curves (AUIC)
-
-```bash
-python AUIC.py --conf_path confs/conf_ig_0.yml
-```
-
-### Output structure
-
-```
-logs/
-└── aurc_{method}_miss/
-    └── seed{seed}/
-        └── {image_name}_aurc_audc_100.json   # per-image retention curve data
-
-results/
-├── aurc_seed42_lrp_included.csv   # compiled AURC/AUDC per method
-├── aurc_{method}_miss_values.csv  # per-image AD/AI/AG
-└── lrc_results.csv
-```
-
----
-
 ## Citation
 
 ```bibtex
